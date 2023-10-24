@@ -1,0 +1,36 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Welcome to Interactive ABCs of CSS Technology Learning Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container2">
+        <h2> Welcome to the Interactive ABCs of CSS Technology Learning Website</h2>
+      </div>
+      <div class="container2">
+        <h2>Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters</h2>
+      </div>
+      <div class="img-container" id="a-container">
+        <img id="img-a" src="/image/css-letter-a.png" alt="A" class="hidden"/>
+        <button class="hide-button hidden" onclick="hideImage('a')">Hide Result</button>
+        <button onclick="toggleImage('a')">A</button>
+      </div>
+
+      <div class="img-container" id="b-container">
+        <img id="img-b" src="/image/css-letter-b.png" alt="B" class="hidden"/>
+        <button class="hide-button hidden" onclick="hideImage('b')">Hide Result</button>
+        <button onclick="toggleImage('b')">B</button>
+      </div>
+
+      <div class="img-container" id="c-container">
+        <img id="img-c" src="/image/css-letter-c.png" alt="C" class="hidden"/>
+        <button class="hide-button hidden" onclick="hideImage('c')">Hide Result</button>
+        <button onclick="toggleImage('c')">C</button>
+      </div>
+    </div>
+    <script src="/js/js.js"></script>
+  </body>
+</html>
